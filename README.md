@@ -14,4 +14,4 @@ aws --endpoint-url=http://localhost:4566 apigateway get-domain-names
 aws --endpoint-url=http://localhost:4566 acm request-certificate --domain-name www.example.com --validation-method DNS --idempotency-token 1234 --options CertificateTransparencyLoggingPreference=DISABLED
 
 
-aws --endpoint-url=http://localhost:4566 s3 cp key.pem s3://teste/
+aws --endpoint-url=http://localhost:4566 s3 cp teste.pem s3://thiagomess/
